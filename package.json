@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "serve": "DEBUG=blog:* npm start",
-    "watch": "DEBUG=blog:* nodemon start"
+    "watch": "DEBUG=blog:* nodemon start",
+    "model": "node_modules/.bin/sequelize model:generate"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -14,6 +15,7 @@
     "morgan": "~1.9.1",
     "mysql2": "^2.2.5",
     "nodemon": "^2.0.7",
-    "sequelize": "^6.6.2"
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0"
   }
 }

@@ -1,3 +1,4 @@
+
 const config = {
     database: {
         DB_CONNECTION: "mysql",
